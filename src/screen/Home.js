@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { Platform, StyleSheet, Text, View ,Dimensions} from "react-native";
-import I18n from '../I18n';
+import Map from './Map';
 export default class Home extends Component{
     render(){
         return(
             <View style={styles.container}>
-                <Text style={{fontSize:30}}>{I18n.t("lang")}</Text>
+                <Map />
             </View>
         );
     }

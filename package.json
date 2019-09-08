@@ -8,10 +8,12 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@react-native-community/geolocation": "^2.0.2",
     "@react-native-community/netinfo": "^4.2.1",
     "react": "16.8.6",
     "react-native": "0.60.5",
     "react-native-i18n": "^2.0.15",
+    "react-native-maps": "^0.25.0",
     "react-native-spinkit": "^1.4.1"
   },
   "devDependencies": {
